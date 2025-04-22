@@ -1,5 +1,3 @@
-# app.py
-
 import streamlit as st
 import pandas as pd
 import pickle
@@ -19,7 +17,7 @@ MODEL_FILENAME = 'XGBoost_best_model.pkl'
 MODEL_PATH = MODEL_FILENAME
 
 # 特征列表
-REQUIRED_FEATURES = ['年','月', '日', '时', '分', '测风塔70米风速(m/s)', 
+REQUIRED_FEATURES = ['月', '日', '时', '分', '测风塔70米风速(m/s)', 
 '测风塔50米风速(m/s)', '测风塔30米风速(m/s)', '测风塔10米风速(m/s)'] 
 
 
